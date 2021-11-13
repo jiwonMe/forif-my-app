@@ -1,13 +1,21 @@
-import React from 'react'
+import React from "react";
 
-const Card = ({ number, cvc, date }: { number: number, cvc: string, date: string }) => {
-    return (
-        <div>
-number: {number}
-cvc: {cvc}
-date: {date}
-        </div>
-    )
-}
+const Card = ({
+  number,
+  cvc,
+  date,
+}: {
+  number: number;
+  cvc: string;
+  date: string;
+}) => {
+  return (
+    <div>
+      number: {number}
+      cvc: {cvc}
+      date: {date}
+    </div>
+  );
+};
 
-export default Card
+export default Card;
